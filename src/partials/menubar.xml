@@ -1,0 +1,12 @@
+<MenuBar>
+	<Menu name="Starter">
+		<Menu name="About Starter" shell="win -a"/>
+		<Menu type="divider"/>
+		<Menu name="Quit Starter" shell="win -c"/>
+	</Menu>
+	<Menu name="Help">
+		<Menu name="Help" click="open-help"/>
+		<Menu type="divider"/>
+		<Menu name="License"/>
+	</Menu>
+</MenuBar>
