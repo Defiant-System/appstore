@@ -20,13 +20,27 @@ layout {
 	}
 
 	.reel-wrapper {
+		position: relative;
+		overflow: hidden;
 		margin: 0 0 21px;
 
 		.reel {
+			position: relative;
+			display: flex;
+			width: 300%;
+			// transform: translateX(0px);
+			// perspective: 100px;
+			// perspective-origin: 4000px 500px;
+			// transform-style: preserve-3d;
+			// overflow-y: hidden;
+			// overflow-x: scroll;
+
 			.frame {
 				background: linear-gradient(180deg, rgba(60,49,148,1) 0%, rgba(70,86,194,1) 100%);
 				position: relative;
+				display: inline-block;
 				border-radius: 11px;
+				width: 100%;
 				height: 300px;
 				overflow: hidden;
 
@@ -34,31 +48,62 @@ layout {
 					position: absolute;
 					top: 0;
 					left: 0;
-					width: 100%;
+					width: 120%;
 					height: 100%;
 					background-repeat: no-repeat;
+					image-rendering: pixelated;
 				}
 
-				.layer-1 { background-image: url(~/img/canabalt/layer-1.png); background-position: 50% 37%; }
-				.layer-2 { background-image: url(~/img/canabalt/layer-2.png); background-position: 50% 100%; }
-				.layer-3 { background-image: url(~/img/canabalt/layer-3.png); background-position: 100% 100%; }
-				.layer-4 { background-image: url(~/img/canabalt/layer-4.png); background-position: 50% 50%; }
+				.layer-1 {
+					background-image: url(~/img/canabalt/layer-1.png);
+					background-position: 50% 37%;
+					background-size: 100% auto;
+				}
+				.layer-2 {
+					background-image: url(~/img/canabalt/layer-2.png);
+					background-position: 50% 100%;
+					background-size: 100% auto;
+				}
+				.layer-3 {
+					background-image: url(~/img/canabalt/layer-3.png);
+					background-position: 97% 100%;
+					width: 100%;
+				}
+				.layer-4 {
+					background-image: url(~/img/canabalt/layer-4.png);
+					background-position: 50% 50%;
+					width: 100%;
+				}
 			}
 		}
 
 		.reel-nav {
-			padding: 5px 0;
+			padding: 7px 0;
 			text-align: center;
 			list-style: none;
 			font-size: 0;
 
 			li {
 				background: rgba(0,0,0,.075);
-				width: 11px;
-				height: 11px;
+				position: relative;
+				width: 13px;
+				height: 13px;
 				display: inline-block;
 				border-radius: 50%;
 				margin: 0 3px;
+				box-shadow: inset 0 1px 3px rgba(0,0,0,.15);
+
+				&.active:before {
+					content: "";
+					position: absolute;
+					top: 3px;
+					left: 3px;
+					width: 7px;
+					height: 7px;
+					border-radius: 50%;
+					background: #fff;
+					box-shadow: 0 1px 3px rgba(0,0,0,.15);
+				}
 			}
 		}
 	}
@@ -86,7 +131,7 @@ layout {
 
 	.block-3 {
 		display: flex;
-		margin: 0 0 19px;
+		margin: 0 0 23px;
 
 		> div {
 			width: 33.33%;
@@ -105,7 +150,7 @@ layout {
 		&:after {
 			content: "";
 			position: absolute;
-			bottom: -13px;
+			bottom: -15px;
 			left: 55px;
 			right: 0;
 			border-bottom: 1px solid rgba(0,0,0,.075);
