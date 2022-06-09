@@ -15,8 +15,6 @@ const starter = {
 		let Self = starter,
 			el;
 		switch (event.type) {
-			case "window.open":
-				break;
 			case "open-help":
 				defiant.shell("fs -u '~/help/index.md'");
 				break;
