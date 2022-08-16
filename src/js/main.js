@@ -16,11 +16,11 @@ const starter = {
 			el;
 		switch (event.type) {
 			case "open-help":
-				defiant.shell("fs -u '~/help/index.md'");
+				karaqu.shell("fs -u '~/help/index.md'");
 				break;
 			case "open-app":
 				el = $(event.target);
-				defiant.shell(`win -o ${el.data("arg")}`);
+				karaqu.shell(`win -o ${el.data("arg")}`);
 				break;
 		}
 	}
