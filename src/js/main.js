@@ -1,5 +1,5 @@
 
-const starter = {
+const appstore = {
 	init() {
 		// fast references
 		this.content = window.find("content");
@@ -12,7 +12,7 @@ const starter = {
 		});
 	},
 	dispatch(event) {
-		let Self = starter,
+		let Self = appstore,
 			el;
 		switch (event.type) {
 			case "open-help":
@@ -26,4 +26,4 @@ const starter = {
 	}
 };
 
-window.exports = starter;
+window.exports = appstore;
