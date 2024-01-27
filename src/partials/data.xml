@@ -1,6 +1,11 @@
 <Data>
 	<Categories>
-
+		<i id="discover" name="Discover" />
+		<i id="work" name="Work" />
+		<i id="paint" name="Image" />
+		<i id="game" name="Games" />
+		<i id="audio" name="Audio" />
+		<i id="system" name="System" />
 	</Categories>
 
 	<Apps>
@@ -12,11 +17,13 @@
 		<i ns="ant" id="calculator" name="Calculator" type="work"/>
 		<i ns="ant" id="bell" name="Bell" type="work"/>
 		<i ns="ant" id="chat" name="Chat" type="work"/>
-		<i ns="ant" id="contacts" name="Contacts" type="social"/>
 
 		<i ns="ant" id="finder" name="Finder" type="system"/>
+		<i ns="ant" id="preferences" name="System Preferences" type="system"/>
 		<i ns="ant" id="terminal" name="Terminal" type="system"/>
+		<i ns="sys" id="about" name="About" type="system"/>
 		<i ns="sys" id="manual" name="Manual" type="system"/>
+		<i ns="ant" id="contacts" name="Contacts" type="system"/>
 
 		<i ns="ant" id="goya" name="Goya" type="paint"/>
 		<i ns="ant" id="keane" name="Keane" type="paint"/>

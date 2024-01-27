@@ -14,7 +14,6 @@
 			match: `//Data/Categories`,
 			target: this.els.el
 		});
-
 	},
 	dispatch(event) {
 		let APP = appstore,
@@ -30,6 +29,9 @@
 
 				Self.els.el.find("li.active").removeClass("active");
 				el.addClass("active");
+
+				// render category content
+				APP.content.dispatch({ type: "render-content", category: el.data("id") });
 				break;
 		}
 	}
