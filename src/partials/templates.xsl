@@ -2,11 +2,11 @@
 
 	<xsl:template name="sidebar-categories">
 		<ul class="categories">
-			<li data-id="start">
+			<li data-id="start" class="active">
 				<i class="icon-discover"></i>
 				<span>Discover</span>
 			</li>
-			<li data-id="audio" class="active">
+			<li data-id="audio">
 				<i class="icon-audio"></i>
 				<span>Audio</span>
 			</li>
