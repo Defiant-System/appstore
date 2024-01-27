@@ -1,5 +1,39 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+	<xsl:template name="sidebar-categories">
+		<ul class="categories">
+			<li data-id="start">
+				<i class="icon-discover"></i>
+				<span>Discover</span>
+			</li>
+			<li data-id="audio" class="active">
+				<i class="icon-audio"></i>
+				<span>Audio</span>
+			</li>
+			<li data-id="social">
+				<i class="icon-social"></i>
+				<span>Social</span>
+			</li>
+			<li data-id="games">
+				<i class="icon-games"></i>
+				<span>Games</span>
+			</li>
+			<li data-id="work">
+				<i class="icon-work"></i>
+				<span>Work</span>
+			</li>
+			<li data-id="image">
+				<i class="icon-paint"></i>
+				<span>Image Processing</span>
+			</li>
+			<li data-id="system">
+				<i class="icon-system"></i>
+				<span>System</span>
+			</li>
+		</ul>
+	</xsl:template>
+
+
 	<xsl:template name="block-apps">
 		<div class="block-3">
 			<xsl:for-each select="./*">

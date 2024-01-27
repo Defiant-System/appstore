@@ -3,20 +3,14 @@
 
 const appstore = {
 	init() {
-		// fast references
-		this.content = window.find("content");
-
 		// init all sub-objects
-		Object.keys(this.box)
-			.filter(i => typeof this.box[i].init === "function")
-			.map(i => this.box[i].init(this));
+		Object.keys(this)
+			.filter(i => typeof this[i].init === "function")
+			.map(i => this[i].init(this));
 
-		// render content view
-		window.render({
-			template: "block-apps",
-			match: `//Data/Apps`,
-			target: window.find(".block")
-		});
+		// DEV-ONLY-START
+		Test.init();
+		// DEV-ONLY-END
 	},
 	dispatch(event) {
 		let Self = appstore,
