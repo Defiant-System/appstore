@@ -1,5 +1,9 @@
 <Data>
-	<apps>
+	<Categories>
+
+	</Categories>
+	<Apps>
+		<i ns="ant" id="mail" name="Mail" type="Productivity"/>
 		<i ns="ant" id="eniac" name="Eniac" type="Productivity"/>
 		<i ns="ant" id="textedit" name="Text Editor" type="Productivity"/>
 		<i ns="ant" id="calendar" name="Calendar" type="Productivity"/>
@@ -7,20 +11,24 @@
 		<i ns="ant" id="calculator" name="Calculator" type="Productivity"/>
 		<i ns="ant" id="bell" name="Bell" type="Productivity"/>
 		<i ns="ant" id="chat" name="Chat" type="Productivity"/>
+		<i ns="ant" id="contacts" name="Contacts" type="Social"/>
 
 		<i ns="ant" id="finder" name="Finder" type="System"/>
 		<i ns="ant" id="terminal" name="Terminal" type="System"/>
+		<i ns="sys" id="manual" name="Manual" type="System"/>
 
 		<i ns="ant" id="goya" name="Goya" type="Image Processing"/>
 		<i ns="ant" id="keane" name="Keane" type="Image Processing"/>
 		<i ns="ant" id="vermeer" name="Vermeer" type="Image Processing"/>
+		<i ns="ant" id="kalli" name="Kalligraphy" type="Image Processing"/>
 		
 		<i ns="ant" id="degas" name="Degas" type="3D"/>
-		<i ns="ant" id="antcad" name="Antcad" type="3D"/>
 
 		<i ns="ant" id="spotify" name="Spotify" type="Audio"/>
 		<i ns="ant" id="synth" name="Synth" type="Audio"/>
-		<i ns="ant" id="defjam" name="DefJam" type="Audio Processing"/>
+		<i ns="ant" id="defjam" name="DefJam" type="Audio"/>
+		<i ns="ant" id="imaudio" name="ImAudio" type="Audio"/>
+		<i ns="ant" id="tunes" name="Tunes" type="Audio"/>
 
 		<i ns="ant" id="supermariobros" name="Super Mario Bros" type="Game"/>
 		<i ns="ant" id="solitaire" name="Solitaire" type="Game"/>
@@ -32,5 +40,13 @@
 		<i ns="ant" id="othello" name="Othello" type="Game"/>
 		<i ns="ant" id="sudoku" name="Sudoku" type="Game"/>
 		<i ns="ant" id="tronikas" name="Tronikas" type="Game"/>
-	</apps>
+
+		<i ns="ant" id="hexgl" name="HexGL" type="Game"/>
+		<i ns="ant" id="astray" name="Astray" type="Game"/>
+		<i ns="ant" id="galaxies" name="Galaxies" type="Game"/>
+		<i ns="ant" id="snake" name="Snake" type="Game"/>
+		<i ns="ant" id="witney" name="Witney" type="Game"/>
+		<i ns="ant" id="xx142b2" name="xx142-b2" type="Game"/>
+		<i ns="ant" id="tangram" name="Tangram" type="Game"/>
+	</Apps>
 </Data>

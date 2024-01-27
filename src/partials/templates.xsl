@@ -7,7 +7,7 @@
 				<div class="app">
 					<div class="left">
 						<i class="icon-eniac">
-							<xsl:attribute name="style">background-image: url(/app/ant/icons/app-icon-<xsl:value-of select="@id"/>.png);</xsl:attribute>
+							<xsl:attribute name="style">background-image: url(/app/<xsl:value-of select="@ns"/>/icons/app-icon-<xsl:value-of select="@id"/>.png);</xsl:attribute>
 						</i>
 					</div>
 					<div class="body">
