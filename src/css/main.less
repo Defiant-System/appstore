@@ -200,16 +200,35 @@ layout {
 		margin: 0 0 23px;
 		font-size: 0;
 
+		&:hover > div {
+			.left, .body, .right {
+				opacity: .35;
+			}
+		}
+
 		> div {
+			border-radius: 7px;
 			display: inline-block;
 			width: 33.33%;
 			// height: 50px;
-			padding: 0 13px;
-			margin-bottom: 17px;
-
-			&:nth-child(3n) {
-				padding-right: 0;
+			padding: 7px 9px;
+			margin: 5px 0 7px;
+			
+			.left, .body, .right {
+				transition: opacity 120ms ease-in-out;
 			}
+
+			&:hover {
+				background: rgba(#000,.05);
+
+				.left, .body, .right {
+					opacity: 1;
+				}
+			}
+
+			// &:nth-child(3n) {
+			// 	padding-right: 0;
+			// }
 		}
 	}
 
