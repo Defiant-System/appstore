@@ -20,8 +20,10 @@ layout {
 			padding: 13px 7px;
 
 			li {
+				margin-bottom: 1px;
 				padding: 7px 7px;
 				border-radius: 3px;
+				cursor: pointer;
 
 				&.active {
 					background: rgba(#000,.1);
@@ -30,6 +32,7 @@ layout {
 				}
 
 				i {
+					pointer-events: none;
 					display: inline-block;
 					vertical-align: middle;
 					width: 19px;
@@ -51,6 +54,7 @@ layout {
 				}
 
 				> span {
+					pointer-events: none;
 					font-size: 14px;
 					vertical-align: middle;
 					opacity: .75;

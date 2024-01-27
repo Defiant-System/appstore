@@ -24,7 +24,12 @@
 			el;
 		// console.log(event);
 		switch (event.type) {
-			case "toggle-sidebar":
+			case "select-category":
+				el = $(event.target);
+				if (el.nodeName() !== "li") return;
+
+				Self.els.el.find("li.active").removeClass("active");
+				el.addClass("active");
 				break;
 		}
 	}

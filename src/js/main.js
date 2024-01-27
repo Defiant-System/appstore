@@ -17,6 +17,7 @@ const appstore = {
 			name,
 			pEl,
 			el;
+		// console.log(event);
 		switch (event.type) {
 			case "open-help":
 				karaqu.shell("fs -u '~/help/index.md'");
@@ -27,9 +28,9 @@ const appstore = {
 				break;
 			default:
 				if (event.el) {
-					pEl = event.el.parents("div[data-box]");
-					name = pEl.data("box");
-					if (pEl.length && Self.box[name].dispatch) {
+					pEl = event.el.data("area") ? event.el : event.el.parents("div[data-area]");
+					name = pEl.data("area");
+					if (pEl.length && Self[name].dispatch) {
 						Self[name].dispatch(event);
 					}
 				}
