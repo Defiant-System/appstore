@@ -15,7 +15,7 @@
 
 
 	<xsl:template name="start-page">
-		<div class="reel-wrapper">
+		<div class="reel-wrapper" data-show="0">
 			<div class="reel">
 				<div class="frame canabalt">
 					<div class="layer-1"></div>
@@ -38,12 +38,12 @@
 					<div class="layer-4"></div>
 				</div>
 			</div>
-			<ul class="reel-nav">
-				<li class="active"></li>
-				<li></li>
-				<li></li>
-			</ul>
 		</div>
+		<ul class="reel-nav" data-click="hero-go">
+			<li class="active"></li>
+			<li></li>
+			<li></li>
+		</ul>
 		
 		<div class="block-2">
 			<div class="category"></div>

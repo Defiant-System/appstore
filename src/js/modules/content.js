@@ -25,6 +25,9 @@
 					match: `//Data`,
 					target: Self.els.el,
 				});
+				// post-render fast references
+				Self.els.reel = window.find(".reel-wrapper");
+				Self.els.nav = window.find(".reel-nav");
 				break;
 			case "render-content":
 				if (event.category === "discover") {
@@ -38,6 +41,14 @@
 					changeSelect: `./*[@type='${event.category}']`,
 					target: Self.els.el,
 				});
+				break;
+			case "hero-go":
+				el = $(event.target);
+				// update nav
+				Self.els.nav.find(".active").removeClass("active");
+				el.addClass("active");
+				// update reel
+				Self.els.reel.data({ show: el.index() });
 				break;
 		}
 	}
