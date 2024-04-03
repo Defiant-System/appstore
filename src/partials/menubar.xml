@@ -1,12 +1,12 @@
 <MenuBar>
-	<Menu name="Starter">
-		<Menu name="About Starter" shell="win -a"/>
+	<Menu name="Application Store">
+		<Menu name="About Application Store" shell="win -a"/>
 		<Menu type="divider"/>
-		<Menu name="Quit Starter" shell="win -c"/>
+		<Menu name="Quit Application Store" shell="win -c"/>
 	</Menu>
 	<Menu name="Help">
 		<Menu name="Help" click="open-help"/>
 		<Menu type="divider"/>
-		<Menu name="License"/>
+		<Menu name="License" shell="win -al"/>
 	</Menu>
 </MenuBar>
