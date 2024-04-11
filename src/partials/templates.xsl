@@ -75,13 +75,16 @@
 		<div>
 			<div class="app">
 				<div class="left">
-					<i class="icon-eniac">
+					<i>
 						<xsl:attribute name="style">background-image: url(/app/<xsl:value-of select="@ns"/>/icons/app-icon-<xsl:value-of select="@id"/>.png);</xsl:attribute>
 					</i>
 				</div>
 				<div class="body">
 					<h2><xsl:value-of select="@name"/></h2>
 					<h3><xsl:value-of select="../../Categories/i[@id = current()/@type]/@name"/></h3>
+					<span>Progress</span> <i class="icon-bars">
+						<xsl:attribute name="style">--clip: inset(0 0 0 <xsl:value-of select="floor( 31 * ( @done div 100 ) )"/>px);</xsl:attribute>
+					</i>
 				</div>
 				<div class="right">
 					<div class="button" data-click="open-app">

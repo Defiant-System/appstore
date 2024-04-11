@@ -9,56 +9,56 @@
 	</Categories>
 
 	<Apps>
-		<i ns="ant" id="mail" name="Mail" type="work"/>
-		<i ns="ant" id="eniac" name="Eniac" type="work"/>
-		<i ns="ant" id="textedit" name="Text Editor" type="work"/>
-		<i ns="ant" id="calendar" name="Calendar" type="work"/>
-		<i ns="ant" id="preview" name="Preview" type="work"/>
-		<i ns="ant" id="calculator" name="Calculator" type="work"/>
-		<i ns="ant" id="bell" name="Bell" type="work"/>
-		<i ns="ant" id="chat" name="Chat" type="work"/>
+		<i done="7" ns="ant" id="mail" name="Mail" type="work"/>
+		<i done="60" ns="ant" id="eniac" name="Eniac" type="work"/>
+		<i done="65" ns="ant" id="textedit" name="Text Editor" type="work"/>
+		<i done="95" ns="ant" id="calendar" name="Calendar" type="work"/>
+		<i done="90" ns="ant" id="preview" name="Preview" type="work"/>
+		<i done="80" ns="ant" id="calculator" name="Calculator" type="work"/>
+		<i done="95" ns="ant" id="bell" name="Bell" type="work"/>
+		<i done="50" ns="ant" id="chat" name="Chat" type="work"/>
 
-		<i ns="sys" id="about" name="About" type="system"/>
-		<i ns="ant" id="contacts" name="Contacts" type="system"/>
-		<i ns="ant" id="finder" name="Finder" type="system"/>
-		<i ns="sys" id="manual" name="Manual" type="system"/>
-		<i ns="ant" id="preferences" name="System Preferences" type="system"/>
-		<i ns="ant" id="terminal" name="Terminal" type="system"/>
-		<i ns="sys" id="virkey" name="Virtual Keyboard" type="system"/>
+		<i done="100" ns="sys" id="about" name="About" type="system"/>
+		<i done="85" ns="ant" id="contacts" name="Contacts" type="system"/>
+		<i done="95" ns="ant" id="finder" name="Finder" type="system"/>
+		<i done="95" ns="sys" id="manual" name="Manual" type="system"/>
+		<i done="85" ns="ant" id="preferences" name="System Preferences" type="system"/>
+		<i done="100" ns="ant" id="terminal" name="Terminal" type="system"/>
+		<i done="100" ns="sys" id="virkey" name="Virtual Keyboard" type="system"/>
 
-		<i ns="ant" id="doob" name="Doob" type="paint"/>
-		<i ns="ant" id="fstudio" name="ƒStudio" type="paint"/>
-		<i ns="ant" id="goya" name="Goya" type="paint"/>
-		<i ns="ant" id="kalli" name="Kalligraphy" type="paint"/>
-		<i ns="ant" id="keane" name="Keane" type="paint"/>
-		<i ns="ant" id="vermeer" name="Vermeer" type="paint"/>
+		<i done="45" ns="ant" id="doob" name="Doob" type="paint"/>
+		<i done="75" ns="ant" id="fstudio" name="ƒStudio" type="paint"/>
+		<i done="90" ns="ant" id="goya" name="Goya" type="paint"/>
+		<i done="80" ns="ant" id="kalli" name="Kalligraphy" type="paint"/>
+		<i done="55" ns="ant" id="keane" name="Keane" type="paint"/>
+		<i done="85" ns="ant" id="vermeer" name="Vermeer" type="paint"/>
 
-		<i ns="ant" id="spotify" name="Spotify" type="audio"/>
-		<i ns="ant" id="synth" name="Synth" type="audio"/>
-		<i ns="ant" id="defjam" name="DefJam" type="audio"/>
-		<i ns="ant" id="imaudio" name="ImAudio" type="audio"/>
-		<i ns="ant" id="tunes" name="Tunes" type="audio"/>
+		<i done="95" ns="ant" id="spotify" name="Spotify" type="audio"/>
+		<i done="85" ns="ant" id="synth" name="Synth" type="audio"/>
+		<i done="50" ns="ant" id="defjam" name="DefJam" type="audio"/>
+		<i done="95" ns="ant" id="imaudio" name="ImAudio" type="audio"/>
+		<i done="95" ns="ant" id="tunes" name="Tunes" type="audio"/>
 
-		<i ns="ant" id="2048" name="2048" type="game"/>
-		<i ns="ant" id="astray" name="Astray" type="game"/>
-		<i ns="ant" id="canabalt" name="Canabalt" type="game"/>
-		<i ns="ant" id="chess" name="Chess" type="game"/>
-		<i ns="ant" id="mines" name="Minesweeper" type="game"/>
-		<i ns="ant" id="iceman" name="Iceman" type="game"/>
-		<i ns="ant" id="galcon" name="Galactic Conquest" type="game"/>
-		<i ns="ant" id="galaxies" name="Galaxies" type="game"/>
-		<i ns="ant" id="hexgl" name="HexGL" type="game"/>
-		<i ns="ant" id="othello" name="Othello" type="game"/>
-		<i ns="ant" id="parabox" name="Snake" type="game"/>
-		<i ns="ant" id="snake" name="Snake" type="game"/>
-		<i ns="ant" id="sudoku" name="Sudoku" type="game"/>
-		<i ns="ant" id="supermariobros" name="Super Mario Bros" type="game"/>
-		<i ns="ant" id="solitaire" name="Solitaire" type="game"/>
-		<i ns="ant" id="tangram" name="Tangram" type="game"/>
-		<i ns="ant" id="tetris" name="Tetris" type="game"/>
-		<i ns="ant" id="tronikas" name="Tronikas" type="game"/>
-		<i ns="ant" id="voyager" name="Tronikas" type="game"/>
-		<i ns="ant" id="witney" name="Witney" type="game"/>
-		<i ns="ant" id="xx142b2" name="xx142-b2" type="game"/>
+		<i done="100" ns="ant" id="2048" name="2048" type="game"/>
+		<i done="100" ns="ant" id="astray" name="Astray" type="game"/>
+		<i done="100" ns="ant" id="canabalt" name="Canabalt" type="game"/>
+		<i done="90" ns="ant" id="chess" name="Chess" type="game"/>
+		<i done="100" ns="ant" id="mines" name="Minesweeper" type="game"/>
+		<i done="100" ns="ant" id="iceman" name="Iceman" type="game"/>
+		<i done="100" ns="ant" id="galcon" name="Galactic Conquest" type="game"/>
+		<i done="100" ns="ant" id="galaxies" name="Galaxies" type="game"/>
+		<i done="95" ns="ant" id="hexgl" name="HexGL" type="game"/>
+		<i done="100" ns="ant" id="othello" name="Othello" type="game"/>
+		<i done="85" ns="ant" id="parabox" name="Snake" type="game"/>
+		<i done="100" ns="ant" id="snake" name="Snake" type="game"/>
+		<i done="100" ns="ant" id="sudoku" name="Sudoku" type="game"/>
+		<i done="100" ns="ant" id="supermariobros" name="Super Mario Bros" type="game"/>
+		<i done="100" ns="ant" id="solitaire" name="Solitaire" type="game"/>
+		<i done="75" ns="ant" id="tangram" name="Tangram" type="game"/>
+		<i done="100" ns="ant" id="tetris" name="Tetris" type="game"/>
+		<i done="80" ns="ant" id="tronikas" name="Tronikas" type="game"/>
+		<i done="95" ns="ant" id="voyager" name="Tronikas" type="game"/>
+		<i done="40" ns="ant" id="witney" name="Witney" type="game"/>
+		<i done="100" ns="ant" id="xx142b2" name="xx142-b2" type="game"/>
 	</Apps>
 </Data>
