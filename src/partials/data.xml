@@ -18,18 +18,20 @@
 		<i ns="ant" id="bell" name="Bell" type="work"/>
 		<i ns="ant" id="chat" name="Chat" type="work"/>
 
+		<i ns="sys" id="about" name="About" type="system"/>
+		<i ns="ant" id="contacts" name="Contacts" type="system"/>
 		<i ns="ant" id="finder" name="Finder" type="system"/>
+		<i ns="sys" id="manual" name="Manual" type="system"/>
 		<i ns="ant" id="preferences" name="System Preferences" type="system"/>
 		<i ns="ant" id="terminal" name="Terminal" type="system"/>
-		<i ns="sys" id="about" name="About" type="system"/>
-		<i ns="sys" id="manual" name="Manual" type="system"/>
-		<i ns="ant" id="contacts" name="Contacts" type="system"/>
+		<i ns="sys" id="virkey" name="Virtual Keyboard" type="system"/>
 
+		<i ns="ant" id="doob" name="Doob" type="paint"/>
+		<i ns="ant" id="fstudio" name="ƒStudio" type="paint"/>
 		<i ns="ant" id="goya" name="Goya" type="paint"/>
+		<i ns="ant" id="kalli" name="Kalligraphy" type="paint"/>
 		<i ns="ant" id="keane" name="Keane" type="paint"/>
 		<i ns="ant" id="vermeer" name="Vermeer" type="paint"/>
-		<i ns="ant" id="kalli" name="Kalligraphy" type="paint"/>
-		<i ns="ant" id="degas" name="Degas" type="paint"/>
 
 		<i ns="ant" id="spotify" name="Spotify" type="audio"/>
 		<i ns="ant" id="synth" name="Synth" type="audio"/>
@@ -37,22 +39,26 @@
 		<i ns="ant" id="imaudio" name="ImAudio" type="audio"/>
 		<i ns="ant" id="tunes" name="Tunes" type="audio"/>
 
-		<i ns="ant" id="supermariobros" name="Super Mario Bros" type="game"/>
-		<i ns="ant" id="solitaire" name="Solitaire" type="game"/>
+		<i ns="ant" id="2048" name="2048" type="game"/>
+		<i ns="ant" id="astray" name="Astray" type="game"/>
 		<i ns="ant" id="canabalt" name="Canabalt" type="game"/>
+		<i ns="ant" id="chess" name="Chess" type="game"/>
 		<i ns="ant" id="mines" name="Minesweeper" type="game"/>
 		<i ns="ant" id="iceman" name="Iceman" type="game"/>
-		<i ns="ant" id="2048" name="2048" type="game"/>
-		<i ns="ant" id="chess" name="Chess" type="game"/>
-		<i ns="ant" id="othello" name="Othello" type="game"/>
-		<i ns="ant" id="sudoku" name="Sudoku" type="game"/>
-		<i ns="ant" id="tronikas" name="Tronikas" type="game"/>
-		<i ns="ant" id="hexgl" name="HexGL" type="game"/>
-		<i ns="ant" id="astray" name="Astray" type="game"/>
+		<i ns="ant" id="galcon" name="Galactic Conquest" type="game"/>
 		<i ns="ant" id="galaxies" name="Galaxies" type="game"/>
+		<i ns="ant" id="hexgl" name="HexGL" type="game"/>
+		<i ns="ant" id="othello" name="Othello" type="game"/>
+		<i ns="ant" id="parabox" name="Snake" type="game"/>
 		<i ns="ant" id="snake" name="Snake" type="game"/>
+		<i ns="ant" id="sudoku" name="Sudoku" type="game"/>
+		<i ns="ant" id="supermariobros" name="Super Mario Bros" type="game"/>
+		<i ns="ant" id="solitaire" name="Solitaire" type="game"/>
+		<i ns="ant" id="tangram" name="Tangram" type="game"/>
+		<i ns="ant" id="tetris" name="Tetris" type="game"/>
+		<i ns="ant" id="tronikas" name="Tronikas" type="game"/>
+		<i ns="ant" id="voyager" name="Tronikas" type="game"/>
 		<i ns="ant" id="witney" name="Witney" type="game"/>
 		<i ns="ant" id="xx142b2" name="xx142-b2" type="game"/>
-		<i ns="ant" id="tangram" name="Tangram" type="game"/>
 	</Apps>
 </Data>
