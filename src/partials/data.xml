@@ -10,6 +10,7 @@
 
 	<Apps>
 		<i done="7" ns="ant" id="mail" name="Mail" type="work"/>
+		<i done="3" ns="ant" id="opus" name="Opus" type="work"/>
 		<i done="60" ns="ant" id="eniac" name="Eniac" type="work"/>
 		<i done="65" ns="ant" id="textedit" name="Text Editor" type="work"/>
 		<i done="95" ns="ant" id="calendar" name="Calendar" type="work"/>
