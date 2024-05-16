@@ -82,9 +82,10 @@
 				<div class="body">
 					<h2><xsl:value-of select="@name"/></h2>
 					<h3><xsl:value-of select="../../Categories/i[@id = current()/@type]/@name"/></h3>
-					<span>Progress</span> <i class="icon-bars">
-						<xsl:attribute name="style">--clip: inset(0 0 0 <xsl:value-of select="floor( 31 * ( @done div 100 ) )"/>px);</xsl:attribute>
-					</i>
+					<span>Progress</span> 
+					<div class="progress"><span>
+						<xsl:attribute name="style">width: <xsl:value-of select="@done"/>%;</xsl:attribute>
+					</span></div>
 				</div>
 				<div class="right">
 					<div class="button" data-click="open-app">

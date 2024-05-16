@@ -10,7 +10,7 @@
 
 	<Apps>
 		<i done="7" ns="ant" id="mail" name="Mail" type="work"/>
-		<i done="3" ns="ant" id="opus" name="Opus" type="work"/>
+		<i done="43" ns="ant" id="opus" name="Opus" type="work"/>
 		<i done="60" ns="ant" id="eniac" name="Eniac" type="work"/>
 		<i done="65" ns="ant" id="textedit" name="Text Editor" type="work"/>
 		<i done="95" ns="ant" id="calendar" name="Calendar" type="work"/>
@@ -44,11 +44,12 @@
 		<i done="100" ns="ant" id="astray" name="Astray" type="game"/>
 		<i done="100" ns="ant" id="canabalt" name="Canabalt" type="game"/>
 		<i done="90" ns="ant" id="chess" name="Chess" type="game"/>
-		<i done="100" ns="ant" id="mines" name="Minesweeper" type="game"/>
+		<i done="35" ns="ant" id="elite" name="Elite Redux" type="game"/>
 		<i done="100" ns="ant" id="iceman" name="Iceman" type="game"/>
 		<i done="100" ns="ant" id="galcon" name="Galactic Conquest" type="game"/>
 		<i done="100" ns="ant" id="galaxies" name="Galaxies" type="game"/>
 		<i done="95" ns="ant" id="hexgl" name="HexGL" type="game"/>
+		<i done="100" ns="ant" id="mines" name="Minesweeper" type="game"/>
 		<i done="100" ns="ant" id="othello" name="Othello" type="game"/>
 		<i done="85" ns="ant" id="parabox" name="Snake" type="game"/>
 		<i done="100" ns="ant" id="snake" name="Snake" type="game"/>

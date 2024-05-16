@@ -327,36 +327,32 @@ layout {
 				color: #777;
 			}
 
-			span {
+			> span {
+				position: relative;
+				top: 3px;
 				font-size: 12px;
 				opacity: .25;
-				margin: 0 5px 0 0;
+				margin: 0 7px 0 0;
 			}
 
-			.icon-bars {
-				position: relative;
-				left: 0;
-				top: 3px;
-				width: 32px;
-				height: 9px;
-				margin: 1px 0 3px;
-				opacity: .3;
+			div.progress {
+				background: rgba(#000,.2);
+				box-shadow: 0 0 0 1px rgba(#000,.2);
 				display: inline-block;
-				background-size: contain;
-				background-repeat: no-repeat;
-				background-position: 50% 50%;
-				background-image: url(~/icons/icon-bars.png);
+				position: relative;
+				top: 2px;
+				width:47px;
+				height: 5px;
+				overflow: hidden;
+				border-radius: 9px;
 
-				&:after {
-					content: "";
+				span {
+					background: #fff;
 					position: absolute;
 					top: 0;
-					left: 0;
-					right: 0;
 					bottom: 0;
-					clip-path: var(--clip);
-					background: inherit;
-					filter: brightness(3);
+					left: 0;
+					opacity: .75;
 				}
 			}
 		}
