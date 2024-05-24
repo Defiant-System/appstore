@@ -18,6 +18,7 @@
 		<i done="80" ns="ant" id="calculator" name="Calculator" type="work"/>
 		<i done="95" ns="ant" id="bell" name="Bell" type="work"/>
 		<i done="50" ns="ant" id="chat" name="Chat" type="work"/>
+		<i done="21" ns="ant" id="qurome" name="Qurome" type="work"/>
 
 		<i done="100" ns="sys" id="about" name="About" type="system"/>
 		<i done="85" ns="ant" id="contacts" name="Contacts" type="system"/>
