@@ -61,7 +61,7 @@
 		<i done="100" ns="ant" id="tetris" name="Tetris" type="game"/>
 		<i done="80" ns="ant" id="tronikas" name="Tronikas" type="game"/>
 		<i done="95" ns="ant" id="voyager" name="Tronikas" type="game"/>
-		<i done="40" ns="ant" id="witney" name="Witney" type="game"/>
+		<i done="45" ns="ant" id="witness" name="Witness" type="game"/>
 		<i done="100" ns="ant" id="xx142b2" name="xx142-b2" type="game"/>
 	</Apps>
 </Data>
