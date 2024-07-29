@@ -53,6 +53,8 @@
 		<div class="block">
 			<div class="block-3">
 				<xsl:for-each select="./Apps/*">
+					<xsl:sort order="descending" data-type="number" select="@done"/>
+					<xsl:sort order="ascending" data-type="string" select="@name"/>
 					<xsl:call-template name="block-app" />
 				</xsl:for-each>
 			</div>

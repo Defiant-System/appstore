@@ -17,10 +17,11 @@
 		<i done="90" ns="ant" id="preview" name="Preview" type="work"/>
 		<i done="80" ns="ant" id="calculator" name="Calculator" type="work"/>
 		<i done="95" ns="ant" id="bell" name="Bell" type="work"/>
-		<i done="50" ns="ant" id="chat" name="Chat" type="work"/>
+		<i done="75" ns="ant" id="chat" name="Chat" type="work"/>
+		<i done="45" ns="ant" id="sequel" name="Sequel" type="work"/>
 		<i done="21" ns="ant" id="qurome" name="Qurome" type="work"/>
 
-		<i done="100" ns="sys" id="about" name="About" type="system"/>
+		<!-- <i done="100" ns="sys" id="about" name="About" type="system"/> -->
 		<i done="85" ns="ant" id="contacts" name="Contacts" type="system"/>
 		<i done="95" ns="ant" id="finder" name="Finder" type="system"/>
 		<i done="95" ns="sys" id="manual" name="Manual" type="system"/>
@@ -37,7 +38,7 @@
 
 		<i done="95" ns="ant" id="spotify" name="Spotify" type="audio"/>
 		<i done="85" ns="ant" id="synth" name="Synth" type="audio"/>
-		<i done="50" ns="ant" id="defjam" name="DefJam" type="audio"/>
+		<i done="65" ns="ant" id="defjam" name="DefJam" type="audio"/>
 		<i done="95" ns="ant" id="imaudio" name="ImAudio" type="audio"/>
 		<i done="95" ns="ant" id="tunes" name="Tunes" type="audio"/>
 
@@ -49,19 +50,19 @@
 		<i done="100" ns="ant" id="iceman" name="Iceman" type="game"/>
 		<i done="100" ns="ant" id="galcon" name="Galactic Conquest" type="game"/>
 		<i done="100" ns="ant" id="galaxies" name="Galaxies" type="game"/>
-		<i done="95" ns="ant" id="hexgl" name="HexGL" type="game"/>
+		<i done="100" ns="ant" id="hexgl" name="HexGL" type="game"/>
 		<i done="100" ns="ant" id="mines" name="Minesweeper" type="game"/>
 		<i done="100" ns="ant" id="othello" name="Othello" type="game"/>
-		<i done="85" ns="ant" id="parabox" name="Snake" type="game"/>
+		<i done="85" ns="ant" id="parabox" name="Parabox" type="game"/>
 		<i done="100" ns="ant" id="snake" name="Snake" type="game"/>
 		<i done="100" ns="ant" id="sudoku" name="Sudoku" type="game"/>
 		<i done="100" ns="ant" id="supermariobros" name="Super Mario Bros" type="game"/>
 		<i done="100" ns="ant" id="solitaire" name="Solitaire" type="game"/>
-		<i done="75" ns="ant" id="tangram" name="Tangram" type="game"/>
+		<i done="100" ns="ant" id="tangram" name="Tangram" type="game"/>
 		<i done="100" ns="ant" id="tetris" name="Tetris" type="game"/>
 		<i done="80" ns="ant" id="tronikas" name="Tronikas" type="game"/>
-		<i done="95" ns="ant" id="voyager" name="Tronikas" type="game"/>
-		<i done="45" ns="ant" id="witness" name="Witness" type="game"/>
+		<i done="100" ns="ant" id="voyager" name="Voyager" type="game"/>
+		<i done="100" ns="ant" id="witness" name="Witness" type="game"/>
 		<i done="100" ns="ant" id="xx142b2" name="xx142-b2" type="game"/>
 	</Apps>
 </Data>
