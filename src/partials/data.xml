@@ -1,4 +1,13 @@
 <Data>
+	<Reel>
+		<i ns="ant" id="witness"/>
+		<i ns="ant" id="canabalt"/>
+		<i ns="ant" id="supermariobros"/>
+		<i ns="ant" id="tangram"/>
+		<i ns="ant" id="tetris"/>
+		<i ns="ant" id="galcon"/>
+	</Reel>
+
 	<Categories>
 		<i id="discover" name="Discover" />
 		<i id="work" name="Work" />

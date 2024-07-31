@@ -91,6 +91,11 @@ layout {
 		&[data-show="0"] .reel { transform: translateX(0); }
 		&[data-show="1"] .reel { transform: translateX(-100%); }
 		&[data-show="2"] .reel { transform: translateX(-200%); }
+		&[data-show="3"] .reel { transform: translateX(-300%); }
+		&[data-show="4"] .reel { transform: translateX(-400%); }
+		&[data-show="5"] .reel { transform: translateX(-500%); }
+		&[data-show="6"] .reel { transform: translateX(-600%); }
+		&[data-show="7"] .reel { transform: translateX(-700%); }
 
 		.reel {
 			position: relative;
@@ -107,81 +112,11 @@ layout {
 				&:nth-child(1) { transform: translateX(0); }
 				&:nth-child(2) { transform: translateX(100%); }
 				&:nth-child(3) { transform: translateX(200%); }
-
-				> div {
-					position: absolute;
-					top: 0;
-					left: 0;
-					width: 120%;
-					height: 100%;
-					background-repeat: no-repeat;
-					animation-timeline: --squareTimeline;
-
-					&.layer-1 { animation-name: sc1; }
-					&.layer-2 { animation-name: sc2; }
-					&.layer-3 { animation-name: sc3; }
-					&.layer-4 { animation-name: sc4; }
-				}
-
-				&.canabalt {
-					background: linear-gradient(180deg, rgba(60,49,148,1) 0%, rgba(70,86,194,1) 100%);
-
-					.layer-1 {
-						position: absolute;
-						background-image: url(~/img/canabalt/layer-1.png);
-						background-position: 50% 37%;
-						background-size: 100% auto;
-					}
-
-					.layer-2 {
-						position: absolute;
-						background-image: url(~/img/canabalt/layer-2.png);
-						background-position: 50% 100%;
-						background-size: 100% auto;
-					}
-
-					.layer-3 {
-						position: absolute;
-						background-image: url(~/img/canabalt/layer-3.png);
-						background-position: 97% 100%;
-						width: 100%;
-					}
-
-					.layer-4 {
-						position: absolute;
-						background-image: url(~/img/canabalt/layer-4.png);
-						background-position: 50% 50%;
-						width: 100%;
-					}
-				}
-
-				&.supermariobros {
-					background: #5f97f9;
-
-					.layer-1 {
-						background-image: url(~/img/supermariobros/layer-1.png);
-						background-position: 50% 37%;
-						background-size: auto 100%;
-					}
-
-					.layer-2 {
-						background-image: url(~/img/supermariobros/layer-2.png);
-						background-position: 20% 100%;
-						background-size: auto 100%;
-					}
-
-					.layer-3 {
-						background-image: url(~/img/supermariobros/layer-3.png);
-						background-position: 80% 100%;
-						background-size: auto 100%;
-					}
-
-					.layer-4 {
-						background-image: url(~/img/supermariobros/layer-4.png);
-						background-position: 75% 100%;
-						background-size: auto 100%;
-					}
-				}
+				&:nth-child(4) { transform: translateX(300%); }
+				&:nth-child(5) { transform: translateX(400%); }
+				&:nth-child(6) { transform: translateX(500%); }
+				&:nth-child(7) { transform: translateX(600%); }
+				&:nth-child(8) { transform: translateX(700%); }
 			}
 		}
 	}
@@ -193,7 +128,7 @@ layout {
 		font-size: 0;
 		margin: 0 0 21px;
 		pointer-events: none;
-		display: none; // temp
+		// display: none; // temp
 
 		li {
 			background: rgba(#000,.075);

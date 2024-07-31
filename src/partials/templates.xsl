@@ -17,32 +17,21 @@
 	<xsl:template name="start-page">
 		<div class="reel-wrapper" data-show="0">
 			<div class="reel">
-				<div class="frame canabalt">
-					<div class="layer-1"></div>
-					<div class="layer-2"></div>
-					<div class="layer-3"></div>
-					<div class="layer-4"></div>
+				<xsl:for-each select="./Reel/*">
+				<div class="frame">
+					<xsl:attribute name="data-ns"><xsl:value-of select="@ns"/></xsl:attribute>
+					<xsl:attribute name="data-id"><xsl:value-of select="@id"/></xsl:attribute>
+					<xsl:attribute name="style">background-image: url(/cdn/appstore/reel/<xsl:value-of select="@id"/>.webp);</xsl:attribute>
 				</div>
-
-				<div class="frame supermariobros">
-					<div class="layer-1"></div>
-					<div class="layer-2"></div>
-					<div class="layer-3"></div>
-					<div class="layer-4"></div>
-				</div>
-				
-				<div class="frame canabalt">
-					<div class="layer-1"></div>
-					<div class="layer-2"></div>
-					<div class="layer-3"></div>
-					<div class="layer-4"></div>
-				</div>
+				</xsl:for-each>
 			</div>
 		</div>
 		<ul class="reel-nav" data-click="hero-go">
-			<li class="active"></li>
-			<li></li>
-			<li></li>
+			<xsl:for-each select="./Reel/*">
+			<li>
+				<xsl:if test="position() = 1"><xsl:attribute name="class">active</xsl:attribute></xsl:if>
+			</li>
+			</xsl:for-each>
 		</ul>
 		
 		<div class="block-2">
