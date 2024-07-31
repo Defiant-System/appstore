@@ -77,12 +77,12 @@ layout {
 	.reel-wrapper {
 		position: relative;
 		height: 300px;
-		// overflow: hidden;
+		overflow: hidden;
 		border-radius: 11px;
 		margin: 0 0 9px;
-		overflow-x: auto;
-		scroll-timeline-axis: x;
-		scroll-timeline-name: --squareTimeline;
+		// overflow-x: auto;
+		// scroll-timeline-axis: x;
+		// scroll-timeline-name: --squareTimeline;
 
 		&::-webkit-scrollbar {
 			display: none;
@@ -102,12 +102,16 @@ layout {
 			display: flex;
 			width: 100%;
 			height: 100%;
+			transition: transform 350ms ease-in-out;
 
 			.frame {
 				position: absolute;
 				width: 100%;
 				height: 300px;
 				overflow: hidden;
+				background-size: 100% auto;
+				background-position: 50% 50%;
+				background-repeat: no-repeat;
 
 				&:nth-child(1) { transform: translateX(0); }
 				&:nth-child(2) { transform: translateX(100%); }
@@ -189,8 +193,8 @@ layout {
 		font-size: 0;
 
 		&:hover > div {
-			.left {
-				opacity: .65;
+			.body {
+				h2, h3 { opacity: .65; }
 			}
 		}
 
@@ -209,8 +213,8 @@ layout {
 			&:hover {
 				background: rgba(#000,.05);
 
-				.left {
-					opacity: 1;
+				.body {
+					h2, h3 { opacity: 1; }
 				}
 			}
 

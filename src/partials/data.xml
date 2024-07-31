@@ -6,6 +6,8 @@
 		<i ns="ant" id="tangram"/>
 		<i ns="ant" id="tetris"/>
 		<i ns="ant" id="galcon"/>
+		<i ns="ant" id="parabox"/>
+		<i ns="ant" id="chess"/>
 	</Reel>
 
 	<Categories>
@@ -26,8 +28,8 @@
 		<i done="90" ns="ant" id="preview" name="Preview" type="work"/>
 		<i done="80" ns="ant" id="calculator" name="Calculator" type="work"/>
 		<i done="95" ns="ant" id="bell" name="Bell" type="work"/>
-		<i done="75" ns="ant" id="chat" name="Chat" type="work"/>
-		<i done="45" ns="ant" id="sequel" name="Sequel" type="work"/>
+		<i done="85" ns="ant" id="chat" name="Chat" type="work"/>
+		<i done="100" ns="ant" id="sequel" name="Sequel" type="work"/>
 		<i done="21" ns="ant" id="qurome" name="Qurome" type="work"/>
 
 		<!-- <i done="100" ns="sys" id="about" name="About" type="system"/> -->

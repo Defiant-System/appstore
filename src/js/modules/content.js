@@ -2,6 +2,7 @@
 // appstore.content
 
 {
+	to: 5000,
 	init() {
 		// fast references
 		this.els = {
@@ -9,6 +10,9 @@
 		};
 		// render start page
 		this.dispatch({ type: "render-start" });
+
+		// start timer
+		this.timer = setTimeout(() => this.dispatch({ type: "hero-auto-step" }), this.to);
 	},
 	dispatch(event) {
 		let APP = appstore,
@@ -28,6 +32,9 @@
 				// post-render fast references
 				Self.els.reel = window.find(".reel-wrapper");
 				Self.els.nav = window.find(".reel-nav");
+				
+				clearTimeout(Self.timer);
+				Self.timer = setTimeout(() => Self.dispatch({ type: "hero-auto-step" }), Self.to);
 				break;
 			case "render-content":
 				if (event.category === "discover") {
@@ -42,6 +49,17 @@
 					target: Self.els.el,
 				});
 				break;
+			case "hero-auto-step":
+				el = window.find(".reel-nav");
+				if (!el.length) return;
+
+				value = el.find("li.active").index() + 1;
+				if (value >= el.find("li").length) value = 0;
+				el.find("li").get(value).trigger("click");
+				// auto trigger next
+				clearTimeout(Self.timer);
+				Self.timer = setTimeout(() => Self.dispatch({ type: "hero-auto-step" }), Self.to);
+				break;
 			case "hero-go":
 				el = $(event.target);
 				// update nav
@@ -49,6 +67,9 @@
 				el.addClass("active");
 				// update reel
 				Self.els.reel.data({ show: el.index() });
+				// auto trigger next
+				clearTimeout(Self.timer);
+				Self.timer = setTimeout(() => Self.dispatch({ type: "hero-auto-step" }), Self.to);
 				break;
 		}
 	}
