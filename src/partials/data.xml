@@ -62,6 +62,7 @@
 		<i done="100" ns="ant" id="galcon" name="Galactic Conquest" type="game"/>
 		<i done="100" ns="ant" id="galaxies" name="Galaxies" type="game"/>
 		<i done="100" ns="ant" id="hexgl" name="HexGL" type="game"/>
+		<i done="100" ns="ant" id="holdem" name="Texas Hold'em" type="game"/>
 		<i done="100" ns="ant" id="mines" name="Minesweeper" type="game"/>
 		<i done="100" ns="ant" id="othello" name="Othello" type="game"/>
 		<i done="85" ns="ant" id="parabox" name="Parabox" type="game"/>
