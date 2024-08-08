@@ -18,9 +18,8 @@
 		<div class="reel-wrapper" data-show="0">
 			<div class="reel">
 				<xsl:for-each select="./Reel/*">
-				<div class="frame">
-					<xsl:attribute name="data-ns"><xsl:value-of select="@ns"/></xsl:attribute>
-					<xsl:attribute name="data-id"><xsl:value-of select="@id"/></xsl:attribute>
+				<div class="frame" data-click="open-app">
+					<xsl:attribute name="data-arg"><xsl:value-of select="@ns"/>:<xsl:value-of select="@id"/></xsl:attribute>
 					<xsl:attribute name="style">background-image: url(/cdn/appstore/reel/<xsl:value-of select="@id"/>.webp);</xsl:attribute>
 				</div>
 				</xsl:for-each>
