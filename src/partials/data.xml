@@ -1,6 +1,6 @@
 <Data>
 	<Reel>
-		<i ns="ant" id="holdem"/>
+		<!-- <i ns="ant" id="holdem"/> -->
 		<i ns="ant" id="witness"/>
 		<i ns="ant" id="canabalt"/>
 		<i ns="ant" id="supermariobros"/>
@@ -8,7 +8,7 @@
 		<i ns="ant" id="tetris"/>
 		<i ns="ant" id="galcon"/>
 		<i ns="ant" id="parabox"/>
-		<!-- <i ns="ant" id="chess"/> -->
+		<i ns="ant" id="chess"/>
 	</Reel>
 
 	<Categories>
