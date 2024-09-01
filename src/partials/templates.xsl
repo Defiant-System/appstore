@@ -90,12 +90,13 @@
 
 	<xsl:template name="themes-list">
 		<div class="block">
-			<div class="block-3">
+			<div class="block-3" data-click="select-theme">
 				<xsl:for-each select="./*">
 					<div class="theme">
+						<xsl:attribute name="data-id"><xsl:value-of select="@id"/></xsl:attribute>
 						<h3><xsl:value-of select="@name"/></h3>
 						<div class="preview">
-							<xsl:attribute name="style">background-image: url(/cdn/ss-tiny/themes/<xsl:value-of select="@id"/>.webp</xsl:attribute>
+							<xsl:attribute name="style">background-image: url(/cdn/ss/themes/<xsl:value-of select="@id"/>.webp</xsl:attribute>
 						</div>
 					</div>
 				</xsl:for-each>

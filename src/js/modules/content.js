@@ -80,6 +80,10 @@
 				clearTimeout(Self.timer);
 				Self.timer = setTimeout(() => Self.dispatch({ type: "hero-auto-step" }), Self.to);
 				break;
+			case "select-theme":
+				el = $(event.target);
+				karaqu.shell(`gui -o ${el.data("id")}`);
+				break;
 		}
 	}
 }
