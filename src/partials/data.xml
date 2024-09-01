@@ -1,6 +1,6 @@
 <Data>
 	<Reel>
-		<!-- <i ns="ant" id="holdem"/> -->
+		<i ns="ant" id="holdem"/>
 		<i ns="ant" id="witness"/>
 		<i ns="ant" id="canabalt"/>
 		<i ns="ant" id="supermariobros"/>
@@ -8,7 +8,7 @@
 		<i ns="ant" id="tetris"/>
 		<i ns="ant" id="galcon"/>
 		<i ns="ant" id="parabox"/>
-		<i ns="ant" id="chess"/>
+		<!-- <i ns="ant" id="chess"/> -->
 	</Reel>
 
 	<Categories>
@@ -18,7 +18,21 @@
 		<i id="game" name="Games" />
 		<i id="audio" name="Audio" />
 		<i id="system" name="System" />
+		<i id="themes" name="Themes" />
 	</Categories>
+
+	<Themes>
+		<i id="karaqu-light" name="Karaqu Light" />
+		<i id="karaqu-dark" name="Karaqu Dark" />
+		<i id="glass-frosted" name="Glass Frosted" />
+		<i id="glass-distorted" name="Glass Distorted" />
+		<i id="royale-amber" name="Royale Amber" />
+		<i id="royale-beige" name="Royale Beige" />
+		<i id="royale-black" name="Royale Black" />
+		<i id="royale-emerald" name="Royale Emerald" />
+		<i id="royale-pink" name="Royale Pink" />
+		<i id="royale-purple" name="Royale Purple" />
+	</Themes>
 
 	<Apps>
 		<i done="7" ns="ant" id="mail" name="Mail" type="work"/>
@@ -63,7 +77,7 @@
 		<i done="100" ns="ant" id="galcon" name="Galactic Conquest" type="game"/>
 		<i done="100" ns="ant" id="galaxies" name="Galaxies" type="game"/>
 		<i done="100" ns="ant" id="hexgl" name="HexGL" type="game"/>
-		<i done="100" ns="ant" id="holdem" name="Poker Hold'em" type="game"/>
+		<!-- <i done="80" ns="ant" id="holdem" name="Poker Hold'em" type="game"/> -->
 		<i done="100" ns="ant" id="mines" name="Minesweeper" type="game"/>
 		<i done="100" ns="ant" id="othello" name="Othello" type="game"/>
 		<i done="85" ns="ant" id="parabox" name="Parabox" type="game"/>

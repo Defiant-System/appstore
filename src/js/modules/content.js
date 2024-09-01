@@ -37,17 +37,26 @@
 				Self.timer = setTimeout(() => Self.dispatch({ type: "hero-auto-step" }), Self.to);
 				break;
 			case "render-content":
-				if (event.category === "discover") {
-					return Self.dispatch({ type: "render-start" });
-				}
 				// render content
-				window.render({
-					template: "category-list",
-					match: `//Data/Apps`,
-					changePath: "//xsl:for-each",
-					changeSelect: `./*[@type='${event.category}']`,
-					target: Self.els.el,
-				});
+				switch (event.category) {
+					case "discover":
+						return Self.dispatch({ type: "render-start" });
+					case "themes":
+						window.render({
+							template: "themes-list",
+							match: `//Data/Themes`,
+							target: Self.els.el,
+						});
+						break;
+					default:
+						window.render({
+							template: "category-list",
+							match: `//Data/Apps`,
+							changePath: "//xsl:for-each",
+							changeSelect: `./*[@type='${event.category}']`,
+							target: Self.els.el,
+						});
+				}
 				break;
 			case "hero-auto-step":
 				el = window.find(".reel-nav");

@@ -55,6 +55,7 @@ layout {
 					&.icon-work     { background-image: url(~/icons/icon-work.png); }
 					&.icon-paint    { background-image: url(~/icons/icon-paint.png); }
 					&.icon-system   { background-image: url(~/icons/icon-system.png); }
+					&.icon-themes   { background-image: url(~/icons/icon-themes.png); }
 				}
 
 				> span {
@@ -222,6 +223,21 @@ layout {
 			// &:nth-child(3n) {
 			// 	padding-right: 0;
 			// }
+		}
+	}
+
+	.theme {
+		display: flex;
+		position: relative;
+
+		h3 {
+			font-size: 14px;
+		}
+
+		.preview {
+			display: inline-block;
+			width: 79px;
+			height: 53px;
 		}
 	}
 
