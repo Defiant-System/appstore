@@ -80,7 +80,7 @@
 		<!-- <i done="80" ns="ant" id="holdem" name="Poker Hold'em" type="game"/> -->
 		<i done="100" ns="ant" id="mines" name="Minesweeper" type="game"/>
 		<i done="100" ns="ant" id="othello" name="Othello" type="game"/>
-		<i done="85" ns="ant" id="parabox" name="Sokoban" type="game"/>
+		<i done="85" ns="ant" id="sokoban" name="Sokoban" type="game"/>
 		<i done="100" ns="ant" id="snake" name="Snake" type="game"/>
 		<i done="100" ns="ant" id="sudoku" name="Sudoku" type="game"/>
 		<i done="100" ns="ant" id="supermariobros" name="Super Mario Bros" type="game"/>
