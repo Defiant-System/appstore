@@ -36,10 +36,10 @@
 	</Themes>
 
 	<Apps>
-		<i done="7" ns="ant" id="mail" name="Mail" type="work"/>
+		<i done="87" ns="ant" id="email" name="Email" type="work"/>
 		<i done="43" ns="ant" id="opus" name="Opus" type="work"/>
 		<i done="60" ns="ant" id="eniac" name="Eniac" type="work"/>
-		<i done="65" ns="ant" id="textedit" name="Text Editor" type="work"/>
+		<i done="85" ns="ant" id="textedit" name="Text Editor" type="work"/>
 		<i done="95" ns="ant" id="calendar" name="Calendar" type="work"/>
 		<i done="90" ns="ant" id="preview" name="Preview" type="work"/>
 		<i done="80" ns="ant" id="calculator" name="Calculator" type="work"/>
@@ -73,6 +73,7 @@
 		<i done="100" ns="ant" id="astray" name="Astray" type="game"/>
 		<i done="100" ns="ant" id="canabalt" name="Canabalt" type="game"/>
 		<i done="90" ns="ant" id="chess" name="Chess" type="game"/>
+		<i done="100" ns="ant" id="delta" name="Delta" type="game"/>
 		<i done="35" ns="ant" id="elite" name="Elite Redux" type="game"/>
 		<i done="100" ns="ant" id="iceman" name="Iceman" type="game"/>
 		<i done="100" ns="ant" id="galcon" name="Galactic Conquest" type="game"/>
