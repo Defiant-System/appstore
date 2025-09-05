@@ -36,7 +36,7 @@
 	</Themes>
 
 	<Apps>
-		<i done="87" ns="ant" id="email" name="Email" type="work"/>
+		<i done="100" ns="ant" id="inbox" name="Inbox" type="work"/>
 		<i done="43" ns="ant" id="opus" name="Opus" type="work"/>
 		<i done="60" ns="ant" id="eniac" name="Eniac" type="work"/>
 		<i done="85" ns="ant" id="textedit" name="Text Editor" type="work"/>
@@ -71,6 +71,7 @@
 
 		<i done="100" ns="ant" id="2048" name="2048" type="game"/>
 		<i done="100" ns="ant" id="astray" name="Astray" type="game"/>
+		<i done="75" ns="ant" id="bounzy" name="Bounzy" type="game"/>
 		<i done="100" ns="ant" id="canabalt" name="Canabalt" type="game"/>
 		<i done="90" ns="ant" id="chess" name="Chess" type="game"/>
 		<i done="100" ns="ant" id="delta" name="Delta" type="game"/>
@@ -80,17 +81,20 @@
 		<i done="100" ns="ant" id="galaxies" name="Galaxies" type="game"/>
 		<i done="100" ns="ant" id="hexgl" name="HexGL" type="game"/>
 		<i done="95" ns="ant" id="holdem" name="Poker Hold'em" type="game"/>
+		<i done="27" ns="ant" id="karateka" name="Karateka" type="game"/>
 		<i done="100" ns="ant" id="mines" name="Minesweeper" type="game"/>
 		<i done="100" ns="ant" id="othello" name="Othello" type="game"/>
+		<i done="63" ns="ant" id="okey" name="Okey 101" type="game"/>
 		<i done="100" ns="ant" id="paradroid" name="Paradroid 3001" type="game"/>
 		<i done="85" ns="ant" id="sokoban" name="Sokoban" type="game"/>
 		<i done="100" ns="ant" id="snake" name="Snake" type="game"/>
 		<i done="100" ns="ant" id="sudoku" name="Sudoku" type="game"/>
 		<i done="100" ns="ant" id="supermariobros" name="Super Mario Bros" type="game"/>
+		<i done="13" ns="ant" id="soccer" name="Soccer" type="game"/>
 		<i done="100" ns="ant" id="solitaire" name="Solitaire" type="game"/>
 		<i done="100" ns="ant" id="tangram" name="Tangram" type="game"/>
 		<i done="100" ns="ant" id="tetris" name="Tetris" type="game"/>
-		<i done="80" ns="ant" id="tronikas" name="Tronikas" type="game"/>
+		<i done="61" ns="ant" id="tronikas" name="Tronikas" type="game"/>
 		<i done="100" ns="ant" id="voyager" name="Voyager" type="game"/>
 		<i done="100" ns="ant" id="witness" name="Witness" type="game"/>
 		<i done="100" ns="ant" id="xx142b2" name="xx142-b2" type="game"/>
