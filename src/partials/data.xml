@@ -75,6 +75,7 @@
 		<i done="100" ns="ant" id="canabalt" name="Canabalt" type="game"/>
 		<i done="90" ns="ant" id="chess" name="Chess" type="game"/>
 		<i done="100" ns="ant" id="delta" name="Delta" type="game"/>
+		<i done="100" ns="ant" id="dropdom" name="Dropdom" type="game"/>
 		<i done="35" ns="ant" id="elite" name="Elite Redux" type="game"/>
 		<i done="100" ns="ant" id="iceman" name="Iceman" type="game"/>
 		<i done="100" ns="ant" id="galcon" name="Galactic Conquest" type="game"/>

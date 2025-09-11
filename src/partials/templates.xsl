@@ -34,8 +34,26 @@
 		</ul>
 		
 		<div class="block-2">
-			<div class="category"></div>
-			<div class="category"></div>
+			<div class="puff-box">
+				<div class="text">
+					<h2>Explore your productivity</h2>
+					<p>
+						Use applications in Karaqu without installation or the need for upgrades.
+						As soon as you run an application, it is automatically the latest version.
+					</p>
+				</div>
+				<div class="disc"></div>
+			</div>
+			<div class="puff-box">
+				<div class="text">
+					<h2>Notice progress indiciator</h2>
+					<p>
+						Some applications in Karaqu are more complete that others. In the list below,
+						each application has an progressbar indicating its development state.
+					</p>
+				</div>
+				<div class="disc"></div>
+			</div>
 		</div>
 		
 		<div class="block">

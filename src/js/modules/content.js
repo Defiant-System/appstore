@@ -2,7 +2,7 @@
 // appstore.content
 
 {
-	to: 5000,
+	to: 9000,
 	init() {
 		// fast references
 		this.els = {
